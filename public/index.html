@@ -4,40 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="local.css">
+    <link rel="stylesheet" href="/public/public.css">
     <title>My Favorite Food</title>
 </head>
 <body>
-    <header>
-        <h1>Pulpo Con Cachelos</h1>
-        <img width="267" height="178" src="/fotos/pulpo.jpg" alt="Pulpo Con Cachelos">
+    <header class="cabecera">
+        <h1 class="titulo">Pulpo Con Cachelos</h1>
+        <img class="imagen" width="267" height="178" src="/fotos/pulpo.jpg" alt="Pulpo Con Cachelos">
     </header>
     <main>
-
-        <section class="seccion1">
-            <h2>INGREDIENTES</h2>
-            <ol>
-                <li>Pulpo</li>
-                <li>Patatas</li>
-                <li>aceite de oliva</li>
-                <li>sal</li>
-            </ol>
-        </section>
-        <section class="seccion2">
+     <div class="container-ingredientes">
+         <div class="ingredientes">
+             <h2>INGREDIENTES</h2>
+             <ol>
+                <input type="checkbox" name="ingredientes" value="pulpo">pulpo<br>
+                <input type="checkbox" name="ingredientes" value="patatas">patatas<br>
+                <input type="checkbox" name="ingredientes" value="aceite de oliva">aceite de oliva<br>
+                <input type="checkbox" name="ingredientes" value="sal">sal<br>
+             </ol>
+        </div>
+        <div class="tiempo">
             <h2>TIME IN COCCION</h2>
             <p>Tiempo del pulpo de 15 a 20 miniutos</p>
             <p>Tiempo de las patatas 30 minutos</p>           
-        </section>
-        <seccion class="seccion3">
-            <h2>PREPARATION</h2>
-            <p>bla bla bla
-
-            </p>
-        </seccion>
+        </div>
+     </div>
    </main>
+
+<div class="preparacion">
+    <h2 class="titulo">PREPARATION</h2>
+    <p class="receta">Es muy importante ablandar el pulpo antes de cocinarlo, he visto como lo hacían 
+    golpeándolo contra la piedra en la Isla de Ons. Pero por suerte si lo congelamos el resultado es
+    prácticamente el mismo. Ayuda a que la carne quede más tierna. Así que lo único que debemos hacer es 
+    congelarlo si lo hemos comprado fresco o comprarlo directamente congelado.
+    Sacamos el pulpo un día antes del congelador y lo pasamos al frigorífico para que se descongele. 
+    Es importante hacerlo en una cazuela o un bol grande pues va a soltar mucho líquido y puede desbordar.
+    A la hora de cocinar lo pasamos un poco por agua fría para quitar posibles impurezas.
+    Ponemos una cazuela (la más grande que tengamos) al fuego con agua, no añadimos sal pues el pulpo se sala al final, 
+    en la presentación.
+    Cuando rompa a hervir añadimos el pulpo, lo cogemos por la cabeza y «lo asustamos», esta técnica consiste en meter 
+    y sacar el pulpo 3 veces de la cazuela para conseguir que el pulpo se quede tieso y no se le caiga la piel durante la cocción.
+    Cocemos el pulpo durante unos 35-40 a fuego medio dependiendo del tamaño (lo normal es cocer un pulpo de 1,8 kg – 2 kg, con 30-35 es suficiente).
+     En este caso, era un pulpo de 3 kilos, con lo que tuvimos que cocerlo desde que empezó a hervir unos 40 minutos.
+     Hay que pincharlo de vez en cuando para ver como está de duro. La primera vez que lo cocinéis os costará cogerle el punto pero luego os saldrá de perlas.
+    </p>
+</div>
    <footer>
        <h5>
-           blabla bla bla bla bbla bala
+           creado por marta gonzalez fernandez
        </h5>
    </footer>
     
